@@ -1,0 +1,86 @@
+HTMl: is a markup language that is the skeleton of the webpage that creates text, headings, footers, lists and etc etc 
+
+Text:
+<h1> to <h6> - Headings = Large to Small
+
+<p> - Paragraph, also can add some additional stuff like <i> - italic, <b> - bold
+
+<label> - added text for the heading 
+
+<hr> - a element that halfs at whatever place u add on the code
+
+<br> - a element that creates an extra space in between text, lists, tables etc etc
+
+Image:
+
+<img> - adding an image
+
+src - a source that is used for the image's link 
+
+alt - name of the image
+
+Text with Link:
+
+<a> - same as paragraph
+
+href - text's link
+
+Lists:
+
+<ol> - a ordered list that starts with 1 to as many you have on that list
+
+<ul> - a ordered list that starts with dots on the list
+
+<li> - the text for the ordered and unordered lists
+
+Fieldset:
+
+<fieldset> - that creates a suitable border around the section that u added on the code
+
+<legend> - a lil title inside of the fieldset
+
+<form> - a container
+
+<input> - inputs that add on a container like the form 
+
+type - that is a choice which u can choose radio, text, email, number as it's type for the input
+
+<select> - that is a selection with options
+
+<option> - that u can add cities like London, Berlin, Milan etc etc
+
+<button> - a finishing function for example <button>Submit</button>
+
+Table: 
+
+<table> - a creation of a table
+
+<tr> - table rows
+
+<th> - table headings 
+
+<td> - table text
+
+colspan - adds a space in between two or more table rows 
+
+rowspan - expands it's space in two or more table headings
+
+Divs and spans: 
+
+<div> - is a container that can add markup and a selector like id or class to 1 paragraph or more 
+
+id - is a selector that can be added to a css file for decoration like
+
+#tovci{
+  color: red;
+}
+
+class - is the same thing as id but on a css file its defined as a ".tovci" at the start like this
+
+.tovci{
+  color: red;
+}
+
+<span> - is a container that can add markup to a portion of text like color for example
+
+<h1><span style="color: aqua;">This</span> is my website</h1>
